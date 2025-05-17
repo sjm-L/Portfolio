@@ -3,74 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>정민's 포트폴리오</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- ✅ 1. 헤더 섹션 -->
     <header>
-      <h1>👋 안녕하세요, 개발자 정민입니다</h1>
-      <p>프론트엔드 & 백엔드 모두 도전하는 풀스택 개발자를 꿈꿉니다.</p>
+      <p class="tagline">설명 한마디</p>
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <hr />
-
-    <!-- ✅ 2. 내 소개 섹션 -->
-    <section id="about">
-      <h2>🙋 내 소개</h2>
+    <section id="profile">
+      <h2>🙋‍♂️ Profile</h2>
       <p>
-        꾸준히 성장하고 싶은 개발자 정민입니다. JavaScript, React, Node.js,
-        MySQL 등을 공부하고 있으며, 실전 프로젝트를 통해 실력을 쌓고 있습니다.
+        안녕하세요! 저는 <strong>React/Node.js</strong> 기반의 웹 풀스택 개발을
+        공부하고 있는 손정민입니다.
+      </p>
+      <p>
+        기초부터 탄탄하게 쌓아가며, 실무에서 바로 쓸 수 있는 감각을 키우고
+        있습니다.
       </p>
 
       <h3>기술 스택</h3>
       <ul>
-        <li>HTML, CSS, JavaScript (ES6+)</li>
-        <li>React / Vite / Redux</li>
-        <li>Node.js / Express</li>
-        <li>MySQL / Firebase</li>
-        <li>Git, GitHub, VS Code</li>
+        <li>Front-End: HTML, CSS, JavaScript, React, Vite</li>
+        <li>Back-End: Node.js, Express.js, MySQL</li>
+        <li>Etc: Git, GitHub, Firebase, AWS EC2/S3</li>
       </ul>
     </section>
 
-    <hr />
-
-    <!-- ✅ 3. 프로젝트 섹션 -->
     <section id="projects">
-      <h2>💻 프로젝트</h2>
-
+      <h2>Projects</h2>
       <div class="project">
-        <h3>🕹️ 위아래 숫자 게임</h3>
-        <p>
-          숫자를 맞추는 간단한 아케이드형 React 게임으로, 게임 결과를 MySQL에
-          저장하는 백엔드와 연동했습니다.
-        </p>
-        <p><strong>사용 기술:</strong> React, Node.js, MySQL</p>
+        <h3>1. 제목</h3>
+        <p>작은 제목, 링크</p>
+        <ul>
+          <li>설명</li>
+          <li>설명</li>
+          <li>설명</li>
+        </ul>
       </div>
 
       <div class="project">
-        <h3>📦 Firebase 알림 서비스</h3>
-        <p>
-          FCM을 활용한 푸시 알림 테스트 프로젝트로, 모바일 대응과 서비스워커
-          구조를 학습했습니다.
-        </p>
-        <p><strong>사용 기술:</strong> Firebase, HTML, JS</p>
+        <h3>2. 제목</h3>
+        <p>작은 제목, 링크</p>
+        <ul>
+          <li>설명</li>
+          <li>설명</li>
+          <li>설명</li>
+        </ul>
       </div>
     </section>
 
-    <hr />
+    <section id="experience">
+      <h2>💼 Experience</h2>
+      <ul>
+        <li>React, Node.js 기반 팀 프로젝트 진행</li>
+        <li>AWS EC2/S3를 활용한 배포 실습</li>
+      </ul>
+    </section>
 
-    <!-- ✅ 4. 연락 섹션 -->
     <section id="contact">
-      <h2>📬 연락처</h2>
+      <h2>Contact</h2>
+      <p>Email: com</p>
       <p>
-        이메일:
-        <a href="mailto:your-email@example.com">your-email@example.com</a>
+        GitHub:
+        <a href="https://github.com/sjm-L" target="_blank"
+          >github.com/yourgithub</a
+        >
       </p>
     </section>
 
     <footer>
-      <p>© 2025 정민. All rights reserved.</p>
+      <p>© 2025 손정민. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
